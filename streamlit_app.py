@@ -50,7 +50,7 @@ if st.button("🗣️ Ask Lenny"):
             "Content-Type": "application/json"
         }
         data = {
-            "model": "llama3-70b-8192",
+            "model": "llama-3.1-8b-instant",
             "messages": [
                 {"role": "system", "content": "You're Lenny the LaborBot, a sarcastic, blue-collar jokester AI who sounds like a grumpy truck mechanic. Give direct, witty, blunt responses with some dry humor."},
                 {"role": "user", "content": prompt}
